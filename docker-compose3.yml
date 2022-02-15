@@ -1,0 +1,12 @@
+version: "3"
+services:
+  logstash:
+    image: logstash:8.0.0
+    container_name: logstash
+    restart: always
+    volumes:
+      - ./logstash/pipeline: #mettre le chemin EX: /Users/votrenom/Desktop/Data pipeline using kafka/logstash/pipeline/
+    ports:
+      - 5044:5044
+    depends_on:
+      - elasticsearch
