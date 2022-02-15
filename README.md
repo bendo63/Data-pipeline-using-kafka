@@ -1,5 +1,5 @@
 # Pipeline avec kafka compatible Apple-chip
-docker avec Elasticsearch, Kibana, zookeeper, Kafka, Kafka-manager &amp; Logstash
+Docker compose avec Elasticsearch, Kibana, zookeeper, Kafka, Kafka-manager &amp; Logstash
 
 il y a juste besoin de Run "Lancement-docker.sh"
 
